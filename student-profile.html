@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+    <h1>Student Profile</h1>
+    <hr>
+
+    <h2>Personal Information</h2>
+    <p><b>Name:</b> Shafiul Alam Bhuiyan</p>
+    <p><b>Student ID:</b> 24-56215-1</p>
+    <p><b>Email:</b> 24-56215-1@student.aiub.edu</p>
+    <p><b>Department:</b> CSE</p>
+
+    <h2>About Me</h2>
+    <p>
+        I am a student of Computer Science and Engineering.
+        I am learning HTML and Web Technology.
+    </p>
+
+    <p><b>This text is bold.</b></p>
+    <p><i>This text is italic.</i></p>
+
+    <h2>Block and Inline Elements</h2>
+    <div>This is Block 1</div>
+    <div>This is Block 2</div>
+
+    <span>This is Inline 1</span>
+    <span>This is Inline 2</span>
+
+    <h2>Useful Link</h2>
+    <a href="https://portal.aiub.edu" target="_blank">
+        AIUB Portal
+    </a>
+
+    <h2>Student Information Table</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>24-56215-1</td>
+            <td>Shafiul Alam Bhuiyan</td>
+            <td>24-56215-1@student.aiub.edu</td>
+            <td>
+                <img src="ProfileImage.jpg"
+                     alt="Student Profile"
+                     width="100">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"
+               name="password" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender"
+               value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender"
+               value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="BBA">BBA</option>
+        </select>
+        <br><br>
+
+        <label for="photo">Upload File:</label>
+        <input type="file" id="photo" name="photo">
+        <br><br>
+
+        <label for="address">Address:</label>
+        <br>
+        <textarea id="address" name="address"
+                  rows="4" cols="35"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="terms"
+               name="terms" value="accepted" required>
+        <label for="terms">I agree to the terms and conditions</label>
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+    <p>Created by Shafiul Alam Bhuiyan</p>
+    <p>Student ID: 24-56215-1</p>
+
+</body>
+</html>
